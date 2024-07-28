@@ -30,8 +30,3 @@ EXPOSE 8080
 
 # Specify the command to run your app
 ENTRYPOINT ["java", "-jar", "todo-application.jar"]
-
-
-
-
-
