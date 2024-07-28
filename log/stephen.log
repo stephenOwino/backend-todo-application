@@ -1,0 +1,32 @@
+2024-07-28T11:50:16.992+03:00  INFO 393 --- [todo-application] [restartedMain] s.com.todo_application.TodoApplication   : Starting TodoApplication using Java 22.0.1 with PID 393 (/home/stephen/my-full-stack-projects/todo-application/build/classes/java/main started by stephen in /home/stephen/my-full-stack-projects/todo-application)
+2024-07-28T11:50:17.260+03:00  INFO 393 --- [todo-application] [restartedMain] s.com.todo_application.TodoApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-28T11:50:17.564+03:00  INFO 393 --- [todo-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-28T11:50:17.566+03:00  INFO 393 --- [todo-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-28T11:50:21.260+03:00  INFO 393 --- [todo-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28T11:50:21.583+03:00  INFO 393 --- [todo-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 291 ms. Found 1 JPA repository interface.
+2024-07-28T11:50:22.970+03:00  WARN 393 --- [todo-application] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-07-28T11:50:23.099+03:00  INFO 393 --- [todo-application] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-07-28T11:50:24.526+03:00  INFO 393 --- [todo-application] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-28T11:50:24.602+03:00  INFO 393 --- [todo-application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-28T11:50:24.603+03:00  INFO 393 --- [todo-application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28T11:50:25.129+03:00  INFO 393 --- [todo-application] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-28T11:50:25.130+03:00  INFO 393 --- [todo-application] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7562 ms
+2024-07-28T11:50:26.503+03:00  INFO 393 --- [todo-application] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28T11:50:27.169+03:00  INFO 393 --- [todo-application] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28T11:50:27.825+03:00  INFO 393 --- [todo-application] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-28T11:50:30.199+03:00  INFO 393 --- [todo-application] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28T11:50:30.372+03:00  INFO 393 --- [todo-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-28T11:50:33.073+03:00  INFO 393 --- [todo-application] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f34d45e
+2024-07-28T11:50:33.088+03:00  INFO 393 --- [todo-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-28T11:50:36.784+03:00  INFO 393 --- [todo-application] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28T11:50:37.071+03:00  INFO 393 --- [todo-application] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28T11:50:38.005+03:00  WARN 393 --- [todo-application] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28T11:50:40.056+03:00  INFO 393 --- [todo-application] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-28T11:50:40.345+03:00  INFO 393 --- [todo-application] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-28T11:50:40.403+03:00  INFO 393 --- [todo-application] [restartedMain] s.com.todo_application.TodoApplication   : Started TodoApplication in 26.909 seconds (process running for 31.896)
+2024-07-28T11:51:26.970+03:00  INFO 393 --- [todo-application] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-28T11:51:26.972+03:00  INFO 393 --- [todo-application] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-28T11:51:26.979+03:00  INFO 393 --- [todo-application] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-07-28T14:18:48.837+03:00  INFO 393 --- [todo-application] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28T14:18:49.165+03:00  INFO 393 --- [todo-application] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-28T14:18:49.186+03:00  INFO 393 --- [todo-application] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
